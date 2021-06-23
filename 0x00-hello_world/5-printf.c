@@ -1,5 +1,8 @@
 #include <stdio.h>
-/* makes words then a newline */
+/**
+ * main - makes words and a newline
+ * Return: 0
+ */
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
