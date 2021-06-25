@@ -1,10 +1,10 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
 /**
-* main - determines if a number is positive, negative, or not
+* main - determines numberic value
 * Return:0
-/* betty style doc for function main goes there */
+*/
 int main(void)
 {
 int n;
