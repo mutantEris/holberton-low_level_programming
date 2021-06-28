@@ -1,12 +1,14 @@
-#include <holberton.h>
+#include "holberton.h"
 /**
-* main - prints alphabet
-* @X - variable
+* print_alphabet - prints alphabet
 * Return:0
 */
-int main(void)
+void print_alphabet(void)
 {
-X = abcdefghijklmnopqrstuvwxyz
-_putchar ("X");
+int X;
+for (X = 'a'; X >= 'z'; X++)
+{
+_putchar ('X');
 _putchar ('\n');
+}
 }
