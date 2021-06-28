@@ -15,5 +15,6 @@ _putchar ('r');
 _putchar ('t');
 _putchar ('o');
 _putchar ('n');
-return(0);
+_putchar ('\n');
+ return(0);
 }
