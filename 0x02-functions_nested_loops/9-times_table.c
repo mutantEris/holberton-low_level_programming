@@ -23,8 +23,10 @@ else
 _putchar(((g * x) / 10) + '0');
 _putchar(((g * x) % 10) + '0');
 if (x != 9)
+{
 _putchar(',');
 _putchar(' ');
+}
 }
 _putchar('\n');
 }
