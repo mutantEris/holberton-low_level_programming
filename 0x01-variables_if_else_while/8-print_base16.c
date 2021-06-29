@@ -6,7 +6,7 @@
 int main(void)
 {
 int g;
-for(g = 0; g < 10; g++)
+for (g = 0; g < 10; g++)
 putchar(g + '0');
 for (g = 'a'; g <= 'f'; g++)
 putchar(g);
