@@ -1,14 +1,14 @@
 #include "holberton.h"
 
 /**
- * print_most_numbers - prints most numbers followed by newline 10x
+ * more_numbers - prints most numbers followed by newline 10x
  *  Return: 0
  */
 void more_numbers(void)
 {
 int x;
 int y = 0;
- for (y = 0; y < 10; y++)
+for (y = 0; y < 10; y++)
 {
 for (x = 0; x <= 14; x++)
 {
