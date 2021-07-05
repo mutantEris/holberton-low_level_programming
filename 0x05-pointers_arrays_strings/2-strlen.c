@@ -1,15 +1,17 @@
 #include "holberton.h"
 
 /**
- * print_line - prints line
- * @*a: variable
- * @*b: variable
+ * _strlen - checks length of string
+ * @*s
  *  Return: 0
  */
-void swap_int(int *a, int *b)
+int _strlen(char *s)
 {
-int c;
-c = *a;
-*a = *b;
-*b = c;
+int length = 0;
+char *str;
+while(*str++)
+{
+length++;
+}
+return length
 }
