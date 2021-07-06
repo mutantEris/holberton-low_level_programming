@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * print_line - prints line
- * @*a: variable
- * @*b: variable
+ * swap_int - prints line
+ * @a: variable
+ * @b: variable
  *  Return: 0
  */
 void swap_int(int *a, int *b)
