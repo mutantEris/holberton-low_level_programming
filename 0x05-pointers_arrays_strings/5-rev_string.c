@@ -18,6 +18,6 @@ for (x = 0; x < length / 2; x++)
 {
 char temp = s[x];
 s[x] = s[length - 1 - x];
- s[length - 1 - x] = temp;
+s[length - 1 - x] = temp;
 }
 }
