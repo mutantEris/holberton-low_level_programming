@@ -1,4 +1,5 @@
 #include "holberton.h"
+int help(int g, int n);
 /**
  * is_prime_number - prints primes
  * @n: number
