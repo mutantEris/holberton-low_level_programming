@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <std.io>
 /**
  * main - prints own name
  * @argc: number of arguments
