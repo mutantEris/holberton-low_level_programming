@@ -23,7 +23,7 @@ for (g = 0; g < height; g++)
 array[g] = malloc(sizeof(int) * width);
 if (array[g] == NULL)
 {
-for (; g >= 0; g++)
+for (x = 0; x <= g; x++)
 {
 free(array[g]);
 }
@@ -38,6 +38,5 @@ for (x = 0; x < width; x++)
 array[g][x] = 0;
 }
 }
-free(array);
 return (array);
 }
