@@ -25,7 +25,7 @@ if (array[g] == NULL)
 {
 for (x = 0; x <= g; x++)
 {
-free(array[g]);
+free(array[x]);
 }
 free(array);
 return (NULL);
