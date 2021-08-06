@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <stddef.h>
 /**
  * print_list - prints the elements of the list
  * @h: h
@@ -16,7 +16,8 @@ list_t *tmp = (list_t *)h;
 while (tmp != NULL)
 {
 if (tmp->str == NULL)
-printf("[0] (nil)");
+printf("[0] (nil)\n");
+else
 printf("[%u] %s\n", tmp->len, tmp->str);
 tmp = tmp->next;
 g++;
