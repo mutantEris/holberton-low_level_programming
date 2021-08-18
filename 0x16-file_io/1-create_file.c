@@ -1,5 +1,12 @@
 #include "holberton.h"
 
+/**
+ * create_file - creates a file
+ * @filename: the file name
+ * @text_content: content of file
+ * Return: -1 or 1
+ */
+
 int create_file(const char *filename, char *text_content)
 {
 int w, o, buffy = 0;
