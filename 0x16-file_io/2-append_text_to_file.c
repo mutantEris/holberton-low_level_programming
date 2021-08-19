@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * append_to_text_to_file - appends to a file
+ * append_text_to_file - appends to a file
  * @filename: the file name
  * @text_content: content of file
  * Return: -1 or 1
