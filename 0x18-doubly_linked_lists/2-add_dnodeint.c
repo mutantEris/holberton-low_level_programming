@@ -12,13 +12,15 @@ dlistint_t *nnode;
 
 nnode = malloc(sizeof(dlistint_t));
 if (nnode == NULL)
-return (NULL);
+{
+	free(nnode);
+	return (NULL);
+}
 if (*head == NULL)
-nnode->next = NULL;
+	nnode->next = NULL;
 else
-nnode->next = *head;
+	nnode->next = *head;
 nnode->n = n;
 *head = nnode;
-free(nnode);
 return (*head);
 }
