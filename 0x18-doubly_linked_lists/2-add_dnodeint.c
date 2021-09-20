@@ -21,6 +21,7 @@ if (*head == NULL)
 else
 	nnode->next = *head;
 nnode->n = n;
+nnode->prev = NULL;
 *head = nnode;
-return (*head);
+return (nnode);
 }
