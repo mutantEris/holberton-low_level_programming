@@ -19,5 +19,6 @@ else
 nnode->next = *head;
 nnode->n = n;
 *head = nnode;
+free(nnode);
 return (*head);
 }
