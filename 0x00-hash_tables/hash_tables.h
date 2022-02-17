@@ -20,6 +20,10 @@ typedef struct hash_node_s
      struct hash_node_s *next;
 } hash_node_t;
 
+
+hash_table_t *hash_table_create(unsigned long int size);
+
+
 /**
  * struct hash_table_s - Hash table data structure
  *
