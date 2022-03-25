@@ -11,10 +11,10 @@
 
 int binarySearch(int *array, int start, int end, int value)
 {
-    	if (end >= start)
+	if (end >= start)
 	{
-        int x;
-        int middle;
+		int x;
+		int middle;
 
 		printf("Searching in array: %d", array[start]);
 		for (x = start + 1; x <= end; x++)
